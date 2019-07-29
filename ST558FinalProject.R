@@ -6,7 +6,7 @@ library(knitr)
 library(ape)
 
 
-forbes <- read_csv(Forbes2000.csv)
+forbes <- read_csv("/Users/sophiamelenikiotis/Downloads/Forbes2000.csv")
 forbes <- as.data.frame(forbes)
 
 
